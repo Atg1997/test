@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 30cm; /* Largeur de la page A4 */
+    height: 20.7cm; /* Hauteur de la page A4 */
+    margin: 1cm auto; /* Marge autour de la page */
+    background-color: grey;
+    position: relative;
+}
+   
+
+#tete {
+    background-attachment: fixed;
+    text-align: left;
+    padding: 20px; /* Ajustez la marge intérieure selon vos besoins */
+  
+}
+
+#nom-prenom {
+    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+    font-weight: bold;
+}
+
+#date-naissance {
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+}
+
+#photo {
+    float: right; /* Aligne à droite */
+}
+li {
+    list-style: none; /* Supprimez les puces de la liste */
+}
+
+figure {
+    max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 0; /* Supprimez les marges par défaut */
+}
+
+img {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de la figure */
+    display: block; /* Supprimez l'espace réservé sous l'image */
+    float: left; /* Alignez l'image à gauche */
+    margin-right: 10px; /* Ajoutez une marge à droite pour l'espace */
+}
+
+figcaption {
+    overflow: hidden; /* Gérez le débordement pour inclure le texte à droite de l'image */
+}
+h5{
+    float:right ; /* Alignez le texte à droite */
+    
+}
+.room{
+    background-color: antiquewhite;
+}
+
+.section{
+    background-color: aqua;
+
+}
+.contact{
+   position:relative;
+   top: -1150px;
+   left:750px ;
+  
+}
+.langue{
+    position:relative;
+    top: -850px;
+    left:750px ;
+  
+ 
+}
+
+
+.logi{
+    position:relative;
+    top: -980px;
+    left:750px ;
+ } 
+ .loisir{
+    position: relative;
+    left: 750px;
+    top:-950px ;
+ }
+ 
